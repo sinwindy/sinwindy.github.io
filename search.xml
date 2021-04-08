@@ -19,49 +19,6 @@
       </categories>
   </entry>
   <entry>
-    <title>21中科大先研院计专复试面经</title>
-    <url>/post/2021-03-26-21%E4%B8%AD%E7%A7%91%E5%A4%A7%E5%85%88%E7%A0%94%E9%99%A2%E8%AE%A1%E4%B8%93%E5%A4%8D%E8%AF%95%E9%9D%A2%E7%BB%8F/</url>
-    <content><![CDATA[<p>今晚刚出了结果，拟录取了，整理了一下复试的问题，希望对调剂和后来之人起到帮助</p>
-<a id="more"></a>
-
-<h2 id="个人背景"><a href="#个人背景" class="headerlink" title="个人背景"></a>个人背景</h2><p><strong>昵称</strong>：晚风。</p>
-<p><strong>报考专业：</strong>先研计算机专硕</p>
-<p><strong>初试分数：政治：</strong>66；<strong>英语一：</strong>55；<strong>数学一：</strong>108；<strong>408：</strong>106；<strong>去政治总分：</strong>267；<strong>总分：</strong>333</p>
-<p><strong>应届往届：</strong>应届</p>
-<p><strong>本科专业：</strong>通信</p>
-<p><strong>本科院校：</strong>双非</p>
-<h2 id="编程题"><a href="#编程题" class="headerlink" title="编程题"></a>编程题</h2><p><strong>题目：</strong>合并两个字符串</p>
-<p><strong>标签：</strong>语法</p>
-<p><strong>我的题解：</strong></p>
-<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> <span class="built_in">std</span>;</span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line">	<span class="built_in">string</span> s1,s2;</span><br><span class="line">	<span class="built_in">cin</span>&gt;&gt;s1&gt;&gt;s2;</span><br><span class="line">	<span class="built_in">string</span> s;</span><br><span class="line">	<span class="keyword">for</span>(<span class="keyword">int</span> i=<span class="number">0</span>;i&lt;(s1.<span class="built_in">size</span>()+s2.<span class="built_in">size</span>());i++)&#123;</span><br><span class="line">		<span class="keyword">if</span>(i&lt;s1.<span class="built_in">size</span>())s[i]=s1[i];</span><br><span class="line">		<span class="keyword">if</span>(i&gt;=s1.<span class="built_in">size</span>())&#123;</span><br><span class="line">			s[i]=s2[i-(s1.<span class="built_in">size</span>()<span class="number">-1</span>)];</span><br><span class="line">		&#125;</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="built_in">cout</span>&lt;&lt;s&lt;&lt;<span class="built_in">endl</span>;</span><br><span class="line">	<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">##纯乱写的太紧张了，最后编译不仅有警告，跑出来也有问题</span><br><span class="line">##正解直接s1+s2就行了  我真是个笨比来的</span><br></pre></td></tr></table></figure>
-
-<h2 id="英语问答"><a href="#英语问答" class="headerlink" title="英语问答"></a>英语问答</h2><h3 id="先是自我介绍"><a href="#先是自我介绍" class="headerlink" title="先是自我介绍"></a>先是自我介绍</h3><h3 id="问题1：你的本科学校在哪里"><a href="#问题1：你的本科学校在哪里" class="headerlink" title="问题1：你的本科学校在哪里"></a>问题1：你的本科学校在哪里</h3><p><strong>标签：</strong>日常</p>
-<p><strong>问答过程：</strong>Ganzhou JiangXi Province</p>
-<h3 id="问题2：如果我去了赣州，你会带我去什么景点"><a href="#问题2：如果我去了赣州，你会带我去什么景点" class="headerlink" title="问题2：如果我去了赣州，你会带我去什么景点"></a>问题2：如果我去了赣州，你会带我去什么景点</h3><p><strong>标签：</strong>日常</p>
-<p><strong>问答过程：</strong>我excuse me了一次，他又说一遍，我半天说不出来，然后我说 I know ,but I dont know</p>
-<p>how to say it in English</p>
-<h3 id="问题3：你说你20岁？那你上学挺早的，你尝试过考科大少年班吗？"><a href="#问题3：你说你20岁？那你上学挺早的，你尝试过考科大少年班吗？" class="headerlink" title="问题3：你说你20岁？那你上学挺早的，你尝试过考科大少年班吗？"></a>问题3：你说你20岁？那你上学挺早的，你尝试过考科大少年班吗？</h3><p><strong>标签</strong>：日常</p>
-<p><strong>问答过程</strong>：嗯，20岁，没有尝试，成绩不允许</p>
-<h3 id="问题4：你通过了哪些英语测试呢，CET4-CET6"><a href="#问题4：你通过了哪些英语测试呢，CET4-CET6" class="headerlink" title="问题4：你通过了哪些英语测试呢，CET4?CET6?"></a>问题4：你通过了哪些英语测试呢，CET4?CET6?</h3><p><strong>标签：</strong>日常/英语</p>
-<p><strong>问答过程：</strong>过了四级 没过6级</p>
-<h3 id="问题5：四级多少分"><a href="#问题5：四级多少分" class="headerlink" title="问题5：四级多少分"></a>问题5：四级多少分</h3><p><strong>标签：</strong>日常</p>
-<p><strong>问答过程：</strong>427…</p>
-<h2 id="中文问答"><a href="#中文问答" class="headerlink" title="中文问答"></a>中文问答</h2><h3 id="问题1：本科项目"><a href="#问题1：本科项目" class="headerlink" title="问题1：本科项目"></a>问题1：本科项目</h3><p><strong>标签：</strong>项目</p>
-<p><strong>问答过程：</strong>随便扯了一个划水的项目</p>
-<h3 id="问题2：本科排名？绩点？"><a href="#问题2：本科排名？绩点？" class="headerlink" title="问题2：本科排名？绩点？"></a>问题2：本科排名？绩点？</h3><p><strong>标签</strong>：本科成绩</p>
-<p><strong>回答过程</strong>：不知道排名，说了一下平均分，说每个学期排名都不一样，综合排名没怎么关注，而且没拿过奖学金，不关注这个</p>
-<h3 id="问题2：项目里碰到了什么难题，你是怎么解决的"><a href="#问题2：项目里碰到了什么难题，你是怎么解决的" class="headerlink" title="问题2：项目里碰到了什么难题，你是怎么解决的"></a>问题2：项目里碰到了什么难题，你是怎么解决的</h3><p><strong>标签：</strong>项目</p>
-<p><strong>问答过程：</strong>……..都说是划水的了，瞎扯了点，感觉老师不太高兴</p>
-<h3 id="问题3：介绍一下cache"><a href="#问题3：介绍一下cache" class="headerlink" title="问题3：介绍一下cache"></a>问题3：介绍一下cache</h3><p><strong>标签：</strong>OS</p>
-<p><strong>问答过程：</strong>缓和主存与cpu速度不匹配的问题</p>
-<h3 id="问题4：还有一个你不知道吗"><a href="#问题4：还有一个你不知道吗" class="headerlink" title="问题4：还有一个你不知道吗"></a>问题4：还有一个你不知道吗</h3><p><strong>标签：</strong>OS</p>
-<p><strong>问答过程：</strong>是指基于局部性原理的吗？cpu访问连续单元时，有cache会大大提升访存速度，（感觉和我上面答得没区别啊 估计错了</p>
-<h3 id="问题5：线性表的两种存储方式？优缺点？"><a href="#问题5：线性表的两种存储方式？优缺点？" class="headerlink" title="问题5：线性表的两种存储方式？优缺点？"></a>问题5：线性表的两种存储方式？优缺点？</h3><h5 id="标签：DS"><a href="#标签：DS" class="headerlink" title="标签：DS"></a>标签：<strong>DS</strong></h5><h5 id="问答过程：顺序表和链表，优缺点答得比较混乱，感觉有点没说清。"><a href="#问答过程：顺序表和链表，优缺点答得比较混乱，感觉有点没说清。" class="headerlink" title="问答过程：顺序表和链表，优缺点答得比较混乱，感觉有点没说清。"></a>问答过程：顺序表和链表，优缺点答得比较混乱，感觉有点没说清。</h5>]]></content>
-      <categories>
-        <category>coswindy</category>
-      </categories>
-  </entry>
-  <entry>
     <title>2020这一年</title>
     <url>/post/2021-01-08-2020%E8%BF%99%E4%B8%80%E5%B9%B4/</url>
     <content><![CDATA[<p>2021年1月8日</p>
